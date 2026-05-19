@@ -291,4 +291,4 @@ predict_image(model, image_index=5, dataset=test_dataset)
 
 
 ## RESULT
-Include your result here
+The image classification model using transfer learning with VGG19 architecture for the given dataset has been executed successfully.
