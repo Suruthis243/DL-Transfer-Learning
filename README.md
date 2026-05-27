@@ -4,11 +4,13 @@
 To develop an image classification model using transfer learning with VGG19 architecture for the given dataset.
 
 ## Problem Statement and Dataset
-Include the problem statement and Dataset
+
+The problem statement for this experiment is to develop an image classification model that can accurately distinguish between 'defect' and 'notdefect' semiconductor chip images. This is a binary classification task, where the goal is to leverage transfer learning using a pre-trained VGG19 model to effectively classify new, unseen chip images.
 
 
 ## Neural Network Model
-Include the neural network model diagram.
+<img width="1043" height="802" alt="image" src="https://github.com/user-attachments/assets/661b03f7-a93c-4cb2-9258-3a6af266c44f" />
+
 
 ## DESIGN STEPS
 
@@ -42,7 +44,7 @@ Evaluate the model with test accuracy, confusion matrix, classification report, 
 ### Register Number: 212224220114
 
 ## PROGRAM
-```
+```python
 
 import torch
 import torch.nn as nn
@@ -273,6 +275,10 @@ predict_image(model, image_index=5, dataset=test_dataset)
 
 ## Training Loss, Validation Loss Vs Iteration Plot
 
+<img width="631" height="226" alt="image" src="https://github.com/user-attachments/assets/0c49740d-b838-4d0a-abd4-fc1875b2a04b" />
+
+
+
 <img width="692" height="576" alt="image" src="https://github.com/user-attachments/assets/5b578461-2715-4e90-a5a3-a00190d1c7ea" />
 
 
@@ -283,12 +289,15 @@ predict_image(model, image_index=5, dataset=test_dataset)
 
 ## Classification Report
 
-<img width="988" height="391" alt="image" src="https://github.com/user-attachments/assets/f1808f02-386f-44e4-a195-655803fcd75d" />
+<img width="620" height="227" alt="image" src="https://github.com/user-attachments/assets/086e0b50-cec7-4516-b66a-88ad02eb0839" />
+
 
 ### New Sample Data Prediction
 
-<img width="787" height="436" alt="image" src="https://github.com/user-attachments/assets/28d836dd-e952-4300-b172-9cbf0738fe1c" />
+<img width="501" height="538" alt="image" src="https://github.com/user-attachments/assets/572dc193-e8bd-49d6-b918-b883dd9fe040" />
+
+<img width="468" height="529" alt="image" src="https://github.com/user-attachments/assets/91b9d23c-47c5-48b1-b061-8188e9b0a7a4" />
 
 
 ## RESULT
-The image classification model using transfer learning with VGG19 architecture for the given dataset has been executed successfully.
+Thus the python program to develop an image classification model using transfer learning with VGG19 architecture is executed successfully.
